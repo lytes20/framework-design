@@ -11,7 +11,6 @@ public class SecureEmailSender {
         if (emailSecurityChecker.isEmailSecure(emailAddress)) {
             emailSender.send(emailAddress, message);
         }
-
     }
 
 }
